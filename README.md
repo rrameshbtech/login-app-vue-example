@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 # login-app-vue-example
 Login application in Vue for demonstration purpose
-=======
-# login-app
 
 ## Project setup
 ```
@@ -26,4 +23,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> init
