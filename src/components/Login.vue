@@ -1,18 +1,18 @@
 <template>
   <div class="login-box middle-screen">
-    <header>Login here</header>
+    <header id="login-title">Login here</header>
     <div>
       <label>Email</label>
-      <input type="text" v-model="email" />
+      <input type="text" id="email-ctrl" v-model="email" />
     </div>
     <div>
       <label>Password</label>
-      <input type="password" v-model="password" />
+      <input type="password" id="password-ctrl" v-model="password" />
     </div>
     <div v-if="error !== ''" class="error-message">* {{error}}</div>
     <div class="actions">
-      <input type="submit" value="Login" v-on:click="login" />
-      <input type="button" value="Cancel" v-on:click="reset" />
+      <input id="login-button" type="submit" value="Login" v-on:click="login" />
+      <input id="cancel-button" type="button" value="Cancel" v-on:click="reset" />
     </div>
   </div>
 </template>
